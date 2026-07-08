@@ -33,3 +33,4 @@ dist-ssr
 
 .pnpm-store
 .tanstack
+/tmp

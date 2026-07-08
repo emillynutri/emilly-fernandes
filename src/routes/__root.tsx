@@ -9,7 +9,7 @@ import {
 } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
-import appCss from "../styles.css?url";
+import appCss from "../app.css?url";
 
 function NotFoundComponent() {
   return (
@@ -74,10 +74,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Emilly Fernandes · Nutricionista" },
-      { name: "description", content: "Acompanhamento nutricional humanizado e personalizado com Emilly Fernandes." },
+      {
+        name: "description",
+        content: "Acompanhamento nutricional humanizado e personalizado com Emilly Fernandes.",
+      },
       { name: "author", content: "Emilly Fernandes" },
       { property: "og:title", content: "Emilly Fernandes · Nutricionista" },
-      { property: "og:description", content: "Acompanhamento nutricional humanizado e personalizado." },
+      {
+        property: "og:description",
+        content: "Acompanhamento nutricional humanizado e personalizado.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
