@@ -59,14 +59,14 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative mx-auto grid min-h-[92vh] max-w-340 grid-cols-1 items-center gap-12 px-6 pb-14 pt-28 lg:grid-cols-[0.47fr_0.53fr] lg:gap-10 lg:px-10 lg:pb-12 lg:pt-32 xl:px-16">
+      <div className="relative mx-auto grid min-h-[92svh] max-w-340 grid-cols-1 items-center gap-10 px-6 pb-10 pt-24 sm:pb-12 sm:pt-28 lg:min-h-[100svh] lg:grid-cols-[0.47fr_0.53fr] lg:gap-8 lg:px-10 lg:pb-0 lg:pt-28 xl:px-16">
         <div className="reveal relative z-20 max-w-170">
           <div className="flex items-center gap-5">
             <p className="eyebrow text-[#CFA66B]">Nutricionista · CRN 50991</p>
             <span className="hidden h-px w-28 bg-linear-to-r from-[#CFA66B]/70 to-transparent sm:block" />
           </div>
 
-          <h1 className="mt-7 max-w-180 font-serif text-[3.15rem] leading-[0.96] tracking-[-0.04em] text-cream sm:text-[4.4rem] lg:text-[5.2rem] xl:text-[5.75rem]">
+          <h1 className="mt-5 max-w-180 font-serif text-[3rem] leading-[0.94] tracking-[-0.04em] text-cream sm:text-[4.1rem] lg:text-[4.8rem] xl:text-[5.35rem]">
             Nutrição leve e personalizada para{" "}
             <span className="italic text-[#E6C79C]">transformar sua</span> relação com a alimentação
           </h1>
@@ -82,12 +82,12 @@ export function Hero() {
             </svg>
           </div>
 
-          <p className="mt-7 max-w-155 text-base leading-relaxed text-cream/76 sm:text-lg">
-            Acompanhamento nutricional humanizado, estratégico e adaptado à sua rotina, para cuidar
-            da sua saúde sem dietas impossíveis.
+          <p className="mt-6 max-w-145 text-base leading-relaxed text-cream/76 sm:text-lg">
+            Acompanhamento nutricional estratégico e adaptado à sua rotina, para cuidar da sua saúde
+            sem dietas impossíveis.
           </p>
 
-          <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -102,7 +102,7 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-12 border-t border-cream/12 pt-7">
+          <div className="mt-10 border-t border-cream/12 pt-6">
             <div className="grid gap-5 text-cream/88 sm:grid-cols-3 sm:gap-0">
               <div className="flex items-center gap-4 sm:pr-6">
                 <span className="text-[#CFA66B]">
@@ -136,7 +136,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="reveal relative z-10 flex min-h-[520px] items-end justify-center lg:min-h-[720px] lg:justify-end">
+        <div className="reveal relative z-10 flex min-h-[500px] items-end justify-center lg:min-h-[680px] lg:justify-end">
           <div className="relative w-full max-w-[760px]">
             <div className="absolute bottom-0 left-[8%] right-[2%] top-[5%] rounded-[42%_58%_12%_26%/22%_28%_12%_18%] bg-gradient-to-br from-cream via-cream to-[#EFE8D8] shadow-[0_34px_100px_rgba(0,0,0,0.32)] lg:left-[2%] lg:right-[0%]" />
 
@@ -181,7 +181,7 @@ export function Hero() {
               alt="Emilly Fernandes, nutricionista"
               width={912}
               height={1200}
-              className="relative z-10 mx-auto h-auto max-h-[72vh] w-full max-w-[720px] translate-y-[2%] object-contain object-bottom drop-shadow-[0_38px_72px_rgba(0,0,0,0.34)] lg:max-h-[84vh] lg:scale-[1.06]"
+              className="relative z-10 mx-auto h-auto max-h-[68svh] w-full max-w-[720px] translate-y-[1%] object-contain object-bottom drop-shadow-[0_38px_72px_rgba(0,0,0,0.34)] sm:max-h-[70svh] lg:max-h-[84vh] lg:translate-y-[2%] lg:scale-[1.06]"
             />
           </div>
         </div>
