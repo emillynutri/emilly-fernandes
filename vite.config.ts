@@ -32,6 +32,9 @@ export default defineConfig(({ mode }) => {
     plugins: [
       tailwindcss(),
       tanstackStart({
+        prerender: {
+          enabled: true,
+        },
         importProtection: {
           behavior: "error",
           client: {
