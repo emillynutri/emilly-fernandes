@@ -10,6 +10,40 @@ import {
 import type { ReactNode } from "react";
 
 import appCss from "../app.css?url";
+import heroImg from "@/assets/emilly-hero.png";
+
+const SITE_NAME = "Emilly Fernandes Nutricionista";
+const SITE_URL = import.meta.env.VITE_SITE_URL?.replace(/\/$/, "") ?? "";
+const SITE_TITLE = "Emilly Fernandes | Nutricionista em Paulista e Online";
+const SITE_DESCRIPTION =
+  "Emilly Fernandes é nutricionista com atendimento online e presencial em Paulista, com acompanhamento nutricional personalizado, emagrecimento, obesidade e saúde da mulher.";
+const SOCIAL_IMAGE = SITE_URL ? `${SITE_URL}${heroImg}` : "";
+const INSTAGRAM_URL = "https://www.instagram.com/emillyfernandes.nutri/";
+const WHATSAPP_PHONE = "+55 81 98379-8945";
+const JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Emilly Fernandes",
+  jobTitle: "Nutricionista",
+  description: SITE_DESCRIPTION,
+  url: SITE_URL || undefined,
+  image: SOCIAL_IMAGE || undefined,
+  telephone: WHATSAPP_PHONE,
+  sameAs: [INSTAGRAM_URL],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Recife",
+    addressRegion: "PE",
+    addressCountry: "BR",
+  },
+  knowsAbout: [
+    "Nutrição personalizada",
+    "Emagrecimento",
+    "Obesidade",
+    "Saúde da mulher",
+    "Reeducação alimentar",
+  ],
+};
 
 function NotFoundComponent() {
   return (
@@ -73,23 +107,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Emilly Fernandes · Nutricionista" },
-      {
-        name: "description",
-        content: "Acompanhamento nutricional humanizado e personalizado com Emilly Fernandes.",
-      },
       { name: "author", content: "Emilly Fernandes" },
-      { property: "og:title", content: "Emilly Fernandes · Nutricionista" },
-      {
-        property: "og:description",
-        content: "Acompanhamento nutricional humanizado e personalizado.",
-      },
-      { property: "og:type", content: "website" },
+      { name: "robots", content: "index, follow" },
+      { name: "googlebot", content: "index, follow, max-image-preview:large" },
+      { name: "theme-color", content: "#041830" },
+      { property: "og:site_name", content: SITE_NAME },
+      { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
+      ...(SITE_URL ? [{ property: "og:url", content: SITE_URL }] : []),
+      ...(SOCIAL_IMAGE
+        ? [
+            { property: "og:image", content: SOCIAL_IMAGE },
+            { name: "twitter:image", content: SOCIAL_IMAGE },
+          ]
+        : []),
     ],
     links: [
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      ...(SITE_URL ? [{ rel: "canonical", href: SITE_URL }] : []),
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -106,9 +142,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }} />
       </head>
       <body>
         {children}

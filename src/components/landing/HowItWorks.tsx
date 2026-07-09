@@ -10,7 +10,7 @@ const steps = [
   {
     n: "02",
     title: "Avaliação individual",
-    desc: "Entendimento da sua rotina, histórico, preferências, objetivos, principais desafios e, na consulta presencial temos uma avaliação da composição corporal por meio de dobras cutâneas",
+    desc: "Entendo sua rotina, histórico, preferências, objetivos, principais desafios e, na consulta presencial temos uma avaliação da composição corporal por meio de dobras cutâneas",
   },
   {
     n: "03",
