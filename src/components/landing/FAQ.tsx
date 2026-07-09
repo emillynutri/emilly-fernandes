@@ -4,7 +4,7 @@ import { Plus } from "lucide-react";
 const faqs = [
   {
     q: "Como funciona a primeira consulta?",
-    a: "É um momento dedicado a te conhecer: avaliamos sua rotina, histórico, preferências, objetivos e desafios. A partir daí, traçamos juntas as próximas etapas do acompanhamento.",
+    a: "É um momento dedicado a te conhecer: avaliamos sua rotina, histórico, preferências, objetivos e desafios. E, realizamos a avaliação da composição corporal por meio de dobras cutâneas. A partir daí, traçamos juntas as próximas etapas do acompanhamento.",
   },
   {
     q: "Existe retorno da consulta?",
@@ -12,19 +12,11 @@ const faqs = [
   },
   {
     q: "O plano alimentar é personalizado?",
-    a: "Sim. Cada plano é construído de forma única, considerando seu dia a dia, seus gostos e seus objetivos — nada de dietas prontas ou genéricas.",
+    a: "Sim. Todos os planos alimentares são elaborados de forma individualizada. O foco é criar um plano que seja eficiente e possível de manter no dia a dia.",
   },
   {
-    q: "Preciso cortar tudo que gosto de comer?",
-    a: "Não. O objetivo é reeducar sua relação com a comida, mantendo prazer e equilíbrio. Nada de listas de proibições — trabalhamos com escolhas conscientes.",
-  },
-  {
-    q: "O acompanhamento é indicado para emagrecimento?",
-    a: "Sim, é uma das principais demandas. O foco é sempre em resultados sustentáveis e saudáveis, respeitando seu corpo e sua história.",
-  },
-  {
-    q: "Com que frequência acontecem os retornos?",
-    a: "Depende da sua fase e dos seus objetivos. Em geral, retornos quinzenais ou mensais funcionam muito bem — ajustamos conforme sua evolução.",
+    q: "Com que frequência devem acontecer as consultas?",
+    a: "Depende da sua fase e dos seus objetivos. Em geral, retornos mensais funcionam muito bem — ajustamos conforme sua evolução.",
   },
   {
     q: "Como faço para agendar?",
