@@ -16,9 +16,16 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Emilly Fernandes · Nutricionista | Acompanhamento nutricional personalizado" },
-      { name: "description", content: "Nutrição personalizada, humanizada e estratégica com Emilly Fernandes. Agende sua consulta pelo WhatsApp e transforme sua relação com a alimentação." },
+      {
+        name: "description",
+        content:
+          "Nutrição personalizada, humanizada e estratégica com Emilly Fernandes. Agende sua consulta pelo WhatsApp e transforme sua relação com a alimentação.",
+      },
       { property: "og:title", content: "Emilly Fernandes · Nutricionista" },
-      { property: "og:description", content: "Acompanhamento nutricional humanizado, estratégico e pensado para a sua rotina." },
+      {
+        property: "og:description",
+        content: "Acompanhamento nutricional humanizado, estratégico e pensado para a sua rotina.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -32,10 +39,10 @@ function Index() {
     <main className="bg-cream">
       <Nav />
       <Hero />
+      <HowItWorks />
       <About />
       <Specialties />
       {/* <Services /> */}
-      <HowItWorks />
       {/* <Testimonials /> */}
       <FAQ />
       <FinalCTA />

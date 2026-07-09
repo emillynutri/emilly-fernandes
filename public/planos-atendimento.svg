@@ -1,0 +1,210 @@
+<svg width="1600" height="2400" viewBox="0 0 1600 2400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="190" y1="150" x2="1460" y2="2260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2547" />
+      <stop offset="1" stop-color="#041830" />
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E3C88D" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#C9A961" stop-opacity="0.08" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="2400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="35" flood-color="#021120" flood-opacity="0.18" />
+    </filter>
+    <filter id="softShadow" x="0" y="0" width="1600" height="2400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#021120" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="2400" rx="0" fill="url(#bg)" />
+  <circle cx="1360" cy="270" r="300" fill="#14345F" fill-opacity="0.55" />
+  <circle cx="220" cy="2120" r="360" fill="#113056" fill-opacity="0.55" />
+  <path d="M1190 0H1600V520C1470 492 1360 420 1306 318C1277 264 1237 142 1190 0Z" fill="#12325B" fill-opacity="0.45" />
+  <path d="M0 1730C143 1769 251 1833 327 1934C404 2033 452 2193 465 2400H0V1730Z" fill="#0F2D53" fill-opacity="0.58" />
+
+  <rect x="92" y="84" width="1416" height="2232" rx="44" fill="url(#goldGlow)" stroke="rgba(201, 169, 97, 0.28)" />
+  <rect x="122" y="118" width="1356" height="2164" rx="36" stroke="rgba(255, 252, 240, 0.16)" />
+
+  <text x="800" y="220" fill="#C9A961" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="7.5" text-anchor="middle">
+    ATENDIMENTO NUTRICIONAL
+  </text>
+  <text x="800" y="332" fill="#FFFCF0" font-family="'Cormorant Garamond', Georgia, serif" font-size="82" font-weight="500" text-anchor="middle">
+    Como funciona meu atendimento
+  </text>
+  <text x="800" y="400" fill="#E8E1D0" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="400" text-anchor="middle">
+    Ofereço três modalidades de atendimento para que você escolha a opção
+  </text>
+  <text x="800" y="443" fill="#E8E1D0" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="400" text-anchor="middle">
+    que melhor se adapta aos seus objetivos e à sua rotina.
+  </text>
+
+  <g filter="url(#softShadow)">
+    <rect x="110" y="540" width="430" height="792" rx="34" fill="#FFFCF0" />
+    <rect x="110" y="540" width="430" height="792" rx="34" stroke="#D8C9A5" stroke-opacity="0.55" />
+    <text x="145" y="618" fill="#C9A961" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4" text-transform="uppercase">
+      Modalidade 01
+    </text>
+    <text x="145" y="692" fill="#041830" font-family="'Cormorant Garamond', Georgia, serif" font-size="58" font-weight="600">
+      Consultoria Online
+    </text>
+    <line x1="145" y1="725" x2="505" y2="725" stroke="#D7C79E" stroke-width="2" />
+    <text x="145" y="790" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      Ideal para quem busca um direcionamento
+    </text>
+    <text x="145" y="826" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      nutricional de forma prática e objetiva.
+    </text>
+    <text x="145" y="906" fill="#0A2547" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">
+      INCLUI
+    </text>
+    <g fill="#173861">
+      <circle cx="159" cy="968" r="6" />
+      <circle cx="159" cy="1024" r="6" />
+      <circle cx="159" cy="1096" r="6" />
+      <circle cx="159" cy="1168" r="6" />
+    </g>
+    <g fill="#173861" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      <text x="182" y="976">Questionário de anamnese online;</text>
+      <text x="182" y="1032">1 encontro por videochamada para</text>
+      <text x="182" y="1064">alinhamento da estratégia e esclarecimento</text>
+      <text x="182" y="1096">de dúvidas;</text>
+      <text x="182" y="1176">Plano alimentar personalizado;</text>
+      <text x="182" y="1248">Suporte via WhatsApp por 30 dias.</text>
+    </g>
+    <text x="145" y="1290" fill="#C9A961" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">
+      INVESTIMENTO
+    </text>
+    <text x="145" y="1342" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">
+      R$ 180
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="585" y="500" width="430" height="872" rx="38" fill="#0A2547" />
+    <rect x="585" y="500" width="430" height="872" rx="38" stroke="#C9A961" stroke-width="2.5" />
+    <rect x="585" y="500" width="430" height="86" rx="38" fill="#C9A961" />
+    <rect x="585" y="560" width="430" height="26" fill="#C9A961" />
+    <text x="620" y="678" fill="#E8C98D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">
+      Modalidade 02
+    </text>
+    <text x="620" y="752" fill="#FFFCF0" font-family="'Cormorant Garamond', Georgia, serif" font-size="58" font-weight="600">
+      Consulta Avulsa
+    </text>
+    <line x1="620" y1="785" x2="980" y2="785" stroke="#C9A961" stroke-opacity="0.65" stroke-width="2" />
+    <text x="620" y="850" fill="#F2E8CF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      Um atendimento completo para avaliação,
+    </text>
+    <text x="620" y="886" fill="#F2E8CF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      planejamento e definição da melhor
+    </text>
+    <text x="620" y="922" fill="#F2E8CF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      estratégia nutricional para você.
+    </text>
+    <text x="620" y="1002" fill="#E8C98D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">
+      INCLUI
+    </text>
+    <g fill="#E8C98D">
+      <circle cx="634" cy="1066" r="6" />
+      <circle cx="634" cy="1128" r="6" />
+    </g>
+    <g fill="#FFFCF0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      <text x="657" y="1074">1 consulta;</text>
+      <text x="657" y="1136">Suporte via WhatsApp por 60 dias.</text>
+    </g>
+    <text x="620" y="1222" fill="#E8C98D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">
+      INVESTIMENTO
+    </text>
+    <text x="620" y="1276" fill="#FFFCF0" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">
+      R$ 230
+    </text>
+    <rect x="620" y="1310" width="360" height="1" fill="#C9A961" fill-opacity="0.38" />
+    <text x="620" y="1348" fill="#E3D6B6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">
+      Atendimento completo para avaliação e estratégia.
+    </text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="1060" y="540" width="430" height="792" rx="34" fill="#FFFCF0" />
+    <rect x="1060" y="540" width="430" height="792" rx="34" stroke="#D8C9A5" stroke-opacity="0.55" />
+    <text x="1095" y="618" fill="#C9A961" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">
+      Modalidade 03
+    </text>
+    <text x="1095" y="692" fill="#041830" font-family="'Cormorant Garamond', Georgia, serif" font-size="56" font-weight="600">
+      Acompanhamento
+    </text>
+    <text x="1095" y="738" fill="#041830" font-family="'Cormorant Garamond', Georgia, serif" font-size="42" font-weight="600">
+      (3 meses)
+    </text>
+    <line x1="1095" y1="770" x2="1455" y2="770" stroke="#D7C79E" stroke-width="2" />
+    <text x="1095" y="836" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      Ideal para quem deseja um acompanhamento
+    </text>
+    <text x="1095" y="872" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      mais próximo, com monitoramento da
+    </text>
+    <text x="1095" y="908" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">
+      evolução e ajustes ao longo do processo.
+    </text>
+    <text x="1095" y="988" fill="#0A2547" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">
+      INCLUI
+    </text>
+    <g fill="#173861">
+      <circle cx="1109" cy="1050" r="6" />
+      <circle cx="1109" cy="1112" r="6" />
+    </g>
+    <g fill="#173861" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      <text x="1132" y="1058">2 consultas;</text>
+      <text x="1132" y="1120">Suporte via WhatsApp por 90 dias.</text>
+    </g>
+    <text x="1095" y="1290" fill="#C9A961" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">
+      INVESTIMENTO
+    </text>
+    <text x="1095" y="1342" fill="#041830" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">
+      R$ 400
+    </text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="110" y="1458" width="1380" height="466" rx="36" fill="#FFFCF0" fill-opacity="0.98" />
+    <rect x="110" y="1458" width="1380" height="466" rx="36" stroke="#D8C9A5" stroke-opacity="0.55" />
+    <text x="160" y="1546" fill="#041830" font-family="'Cormorant Garamond', Georgia, serif" font-size="58" font-weight="600">
+      O que está incluso na Consulta Avulsa e no Acompanhamento?
+    </text>
+    <g fill="#0A2547">
+      <circle cx="177" cy="1620" r="6" />
+      <circle cx="177" cy="1706" r="6" />
+      <circle cx="177" cy="1792" r="6" />
+      <circle cx="787" cy="1620" r="6" />
+      <circle cx="787" cy="1706" r="6" />
+    </g>
+    <g fill="#173861" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      <text x="200" y="1628">Avaliação detalhada da rotina, histórico de saúde, hábitos alimentares</text>
+      <text x="200" y="1660">e objetivos;</text>
+      <text x="200" y="1714">Avaliação da composição corporal por meio de dobras cutâneas</text>
+      <text x="200" y="1746">(atendimento presencial);</text>
+      <text x="200" y="1800">Plano alimentar totalmente personalizado;</text>
+      <text x="810" y="1628">Prescrição de suplementação, quando necessária;</text>
+      <text x="810" y="1714">Ajustes na estratégia nutricional de acordo com sua evolução.</text>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="110" y="1980" width="1380" height="250" rx="36" fill="#0A2547" />
+    <rect x="110" y="1980" width="1380" height="250" rx="36" stroke="#C9A961" stroke-opacity="0.6" />
+    <text x="160" y="2062" fill="#E8C98D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">
+      ATENDIMENTO ONLINE
+    </text>
+    <text x="160" y="2134" fill="#FFFCF0" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="400">
+      As consultas online seguem o mesmo padrão de qualidade do atendimento presencial.
+    </text>
+    <text x="160" y="2190" fill="#E5DCC7" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      A avaliação da composição corporal é realizada por meio de fotos padronizadas e,
+    </text>
+    <text x="160" y="2224" fill="#E5DCC7" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      quando necessário, por medidas de circunferências. Todo o processo é orientado por mim,
+    </text>
+    <text x="160" y="2258" fill="#E5DCC7" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400">
+      para que as medidas sejam realizadas de forma correta e confiável.
+    </text>
+  </g>
+</svg>

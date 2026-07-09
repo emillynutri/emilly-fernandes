@@ -6,7 +6,7 @@ import { WHATSAPP_URL } from "./WhatsAppFloat";
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden bg-navy text-cream">
+    <section id="top" className="relative overflow-hidden bg-navy pb-14 text-cream lg:pb-18">
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <div className="absolute left-[-10%] top-[10%] h-[560px] w-[560px] rounded-full bg-cream/[0.035] blur-3xl" />
         <div className="absolute right-[-8%] top-[14%] h-[620px] w-[620px] rounded-full bg-cream/[0.055] blur-3xl" />
@@ -185,6 +185,29 @@ export function Hero() {
             />
           </div>
         </div>
+      </div>
+
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-30 h-18 lg:h-22"
+      >
+        <svg
+          className="absolute bottom-0 left-0 h-full w-full"
+          viewBox="0 0 1440 96"
+          preserveAspectRatio="none"
+          fill="none"
+        >
+          <path
+            d="M0 22C162 56 322 63 504 50C694 36 830 10 1016 14C1184 18 1315 44 1440 55V96H0V22Z"
+            fill="#FFFCF0"
+          />
+          <path
+            d="M0 22C162 56 322 63 504 50C694 36 830 10 1016 14C1184 18 1315 44 1440 55"
+            stroke="#CFA66B"
+            strokeWidth="1"
+            opacity="0.65"
+          />
+        </svg>
       </div>
     </section>
   );
