@@ -6,17 +6,13 @@ import { WHATSAPP_URL } from "./WhatsAppFloat";
 export function Footer() {
   return (
     <footer className="border-t border-cream/10 bg-navy text-cream/70">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.4fr_1fr_1fr] lg:px-10">
+      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 lg:grid-cols-[1.4fr_1fr_1fr] lg:px-10">
         <div>
           <img
             src={logoNome}
             alt="Emilly Fernandes Nutricionista"
-            className="h-auto w-full max-w-[300px] object-contain"
+            className="h-auto w-full max-w-75 object-contain"
           />
-          <p className="mt-6 max-w-md text-sm leading-relaxed">
-            Atendimento nutricional individualizado para uma rotina mais saudável, leve e
-            equilibrada.
-          </p>
         </div>
         <div>
           <p className="eyebrow text-cream/50">Contato</p>
@@ -30,7 +26,7 @@ export function Footer() {
           </a>
           <br />
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/emillyfernandes.nutri/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 inline-flex items-center gap-2 text-cream transition hover:text-cream/70"
@@ -44,11 +40,6 @@ export function Footer() {
             <li>
               <a href="#sobre" className="transition hover:text-cream">
                 Sobre
-              </a>
-            </li>
-            <li>
-              <a href="#especialidades" className="transition hover:text-cream">
-                Jornada
               </a>
             </li>
             <li>

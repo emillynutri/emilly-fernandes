@@ -10,12 +10,12 @@ const steps = [
   {
     n: "02",
     title: "Avaliação individual",
-    desc: "Entendimento da sua rotina, histórico, preferências, objetivos e principais desafios.",
+    desc: "Entendimento da sua rotina, histórico, preferências, objetivos, principais desafios e, na consulta presencial temos uma avaliação da composição corporal por meio de dobras cutâneas",
   },
   {
     n: "03",
     title: "Plano personalizado",
-    desc: "Construção de estratégias alimentares realistas, adaptadas à sua vida.",
+    desc: "Construção de estratégias nutricionais, adaptadas à sua realidade e objetivos.",
   },
   {
     n: "04",
@@ -28,7 +28,7 @@ export function HowItWorks() {
   return (
     <section
       id="como-funciona"
-      className="relative overflow-hidden bg-cream pb-24 pt-20 text-navy lg:pb-32 lg:pt-24"
+      className="relative overflow-hidden bg-cream pb-18 pt-16 text-navy lg:pb-24 lg:pt-20"
     >
       {/* Elementos decorativos suaves */}
       <div aria-hidden className="pointer-events-none absolute inset-0">
@@ -61,7 +61,7 @@ export function HowItWorks() {
         </svg>
       </div>
 
-      <div className="relative mx-auto max-w-[1280px] px-6 lg:px-10 xl:px-16">
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-10 xl:px-16">
         <div className="reveal mx-auto max-w-3xl text-center">
           <p className="eyebrow text-[#CFA66B]">Como funciona</p>
 
@@ -71,17 +71,17 @@ export function HowItWorks() {
           </h2>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {steps.map((s) => (
             <article
               key={s.n}
-              className="reveal group relative min-h-[270px] rounded-[1.5rem] border border-navy/10 bg-[#FFFCF0]/72 p-8 shadow-[0_24px_70px_rgba(4,24,48,0.06)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#CFA66B]/45 hover:shadow-[0_28px_80px_rgba(4,24,48,0.12)]"
+              className="reveal group relative min-h-67.5 rounded-[1.5rem] border border-navy/10 bg-[#FFFCF0]/72 p-8 shadow-[0_24px_70px_rgba(4,24,48,0.06)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#CFA66B]/45 hover:shadow-[0_28px_80px_rgba(4,24,48,0.12)]"
             >
               <span className="font-serif text-[3.35rem] leading-none tracking-[-0.04em] text-navy/22 transition-colors duration-300 group-hover:text-[#CFA66B]/65">
                 {s.n}
               </span>
 
-              <h3 className="mt-7 max-w-[13rem] font-serif text-[1.35rem] leading-snug tracking-[-0.02em] text-navy">
+              <h3 className="mt-7 max-w-52 font-serif text-[1.35rem] leading-snug tracking-[-0.02em] text-navy">
                 {s.title}
               </h3>
 
@@ -92,7 +92,7 @@ export function HowItWorks() {
           ))}
         </div>
 
-        <div className="reveal mt-14 flex justify-center">
+        <div className="reveal mt-10 flex justify-center">
           <a
             href={WHATSAPP_URL}
             target="_blank"

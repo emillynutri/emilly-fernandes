@@ -4,13 +4,13 @@ import { WHATSAPP_URL } from "./WhatsAppFloat";
 
 export function About() {
   return (
-    <section id="sobre" className="relative overflow-hidden bg-cream py-20 lg:py-28">
+    <section id="sobre" className="relative overflow-hidden bg-cream py-16 lg:py-22">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_72%_28%,rgba(4,24,48,0.04),transparent_34%)]"
       />
 
-      <div className="relative mx-auto grid max-w-330 grid-cols-1 items-center gap-14 px-6 lg:grid-cols-[0.48fr_0.52fr] lg:gap-20 lg:px-10 xl:px-14">
+      <div className="relative mx-auto grid max-w-330 grid-cols-1 items-center gap-12 px-6 lg:grid-cols-[0.48fr_0.52fr] lg:gap-16 lg:px-10 xl:px-14">
         <div className="reveal relative order-2 lg:order-1">
           <div className="relative mx-auto aspect-[4.15/5] w-full max-w-130">
             {/* arco principal azul */}

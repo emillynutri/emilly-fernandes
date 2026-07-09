@@ -27,7 +27,7 @@ const faqs = [
 export function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <section id="faq" className="relative bg-cream py-24 lg:py-32">
+    <section id="faq" className="relative bg-cream py-18 lg:py-24">
       <div className="mx-auto max-w-4xl px-6 lg:px-10">
         <div className="reveal text-center">
           <p className="eyebrow text-navy/50">FAQ</p>
@@ -36,7 +36,7 @@ export function FAQ() {
           </h2>
         </div>
 
-        <div className="reveal mt-14 divide-y divide-navy/10 border-y border-navy/10">
+        <div className="reveal mt-10 divide-y divide-navy/10 border-y border-navy/10">
           {faqs.map((f, i) => {
             const isOpen = open === i;
             return (

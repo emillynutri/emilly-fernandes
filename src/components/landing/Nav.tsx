@@ -16,9 +16,6 @@ export function Nav() {
           <a href="#sobre" className="transition hover:text-cream">
             Sobre
           </a>
-          <a href="#especialidades" className="transition hover:text-cream">
-            Jornada
-          </a>
           <a href="#como-funciona" className="transition hover:text-cream">
             Como funciona
           </a>
