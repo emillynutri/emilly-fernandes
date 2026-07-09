@@ -2,12 +2,34 @@ import { useState } from "react";
 import { Plus } from "lucide-react";
 
 const faqs = [
-  { q: "Como funciona a primeira consulta?", a: "É um momento dedicado a te conhecer: avaliamos sua rotina, histórico, preferências, objetivos e desafios. A partir daí, traçamos juntas as próximas etapas do acompanhamento." },
-  { q: "O plano alimentar é personalizado?", a: "Sim. Cada plano é construído de forma única, considerando seu dia a dia, seus gostos e seus objetivos — nada de dietas prontas ou genéricas." },
-  { q: "Preciso cortar tudo que gosto de comer?", a: "Não. O objetivo é reeducar sua relação com a comida, mantendo prazer e equilíbrio. Nada de listas de proibições — trabalhamos com escolhas conscientes." },
-  { q: "O acompanhamento é indicado para emagrecimento?", a: "Sim, é uma das principais demandas. O foco é sempre em resultados sustentáveis e saudáveis, respeitando seu corpo e sua história." },
-  { q: "Com que frequência acontecem os retornos?", a: "Depende da sua fase e dos seus objetivos. Em geral, retornos quinzenais ou mensais funcionam muito bem — ajustamos conforme sua evolução." },
-  { q: "Como faço para agendar?", a: "É simples: basta enviar uma mensagem pelo WhatsApp. Respondo pessoalmente para entender sua necessidade e reservar o melhor horário para você." },
+  {
+    q: "Como funciona a primeira consulta?",
+    a: "É um momento dedicado a te conhecer: avaliamos sua rotina, histórico, preferências, objetivos e desafios. A partir daí, traçamos juntas as próximas etapas do acompanhamento.",
+  },
+  {
+    q: "Existe retorno da consulta?",
+    a: "O retorno na consulta avulsa não é incluído, pois acredito que a nutrição exige um acompanhamento contínuo e personalizado. No acompanhamento, cada retorno é tratado como uma nova consulta. Nele, reavaliamos sua evolução, elaboramos um novo plano alimentar, atualizamos as orientações e, quando necessário, ajustamos a suplementação. Tudo é personalizado de acordo com a sua evolução e necessidades, para que você continue progredindo em direção aos seus objetivos.",
+  },
+  {
+    q: "O plano alimentar é personalizado?",
+    a: "Sim. Cada plano é construído de forma única, considerando seu dia a dia, seus gostos e seus objetivos — nada de dietas prontas ou genéricas.",
+  },
+  {
+    q: "Preciso cortar tudo que gosto de comer?",
+    a: "Não. O objetivo é reeducar sua relação com a comida, mantendo prazer e equilíbrio. Nada de listas de proibições — trabalhamos com escolhas conscientes.",
+  },
+  {
+    q: "O acompanhamento é indicado para emagrecimento?",
+    a: "Sim, é uma das principais demandas. O foco é sempre em resultados sustentáveis e saudáveis, respeitando seu corpo e sua história.",
+  },
+  {
+    q: "Com que frequência acontecem os retornos?",
+    a: "Depende da sua fase e dos seus objetivos. Em geral, retornos quinzenais ou mensais funcionam muito bem — ajustamos conforme sua evolução.",
+  },
+  {
+    q: "Como faço para agendar?",
+    a: "É simples: basta enviar uma mensagem pelo WhatsApp. Respondo pessoalmente para entender sua necessidade e reservar o melhor horário para você.",
+  },
 ];
 
 export function FAQ() {
