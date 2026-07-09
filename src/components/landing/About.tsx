@@ -1,4 +1,4 @@
-import aboutImg from "@/assets/emilly-seria-original.png";
+import aboutImgPng from "@/assets/emilly-seria-original-optimized.png";
 import { WhatsAppIcon } from "./WhatsAppIcon";
 import { WHATSAPP_URL } from "./WhatsAppFloat";
 
@@ -62,11 +62,12 @@ export function About() {
 
             <div className="absolute inset-x-[8%] bottom-0 top-[3%] z-20 overflow-hidden rounded-t-[999px] rounded-b-[10px]">
               <img
-                src={aboutImg}
+                src={aboutImgPng}
                 alt="Emilly Fernandes em consulta"
-                width={1400}
-                height={1800}
+                width={1050}
+                height={1400}
                 loading="lazy"
+                decoding="async"
                 className="h-full w-full object-cover object-[54%_18%] scale-[1.02]"
               />
 

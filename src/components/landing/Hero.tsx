@@ -1,4 +1,5 @@
-import heroImg from "@/assets/emilly-hero.png";
+import heroImgPng from "@/assets/emilly-hero-optimized.png";
+import heroImgWebp from "@/assets/emilly-hero.webp";
 import logoLetras from "@/assets/logo-letras.png";
 import { CalendarDays, Leaf, UserRound } from "lucide-react";
 import { WhatsAppIcon } from "./WhatsAppIcon";
@@ -55,6 +56,9 @@ export function Hero() {
           src={logoLetras}
           alt=""
           aria-hidden
+          loading="lazy"
+          decoding="async"
+          fetchPriority="low"
           className="absolute bottom-[2%] left-[3%] hidden w-70 opacity-[0.12] lg:block xl:w-[320px]"
         />
       </div>
@@ -68,7 +72,7 @@ export function Hero() {
 
           <h1 className="mt-5 max-w-180 font-serif text-[3rem] leading-[0.94] tracking-[-0.04em] text-cream sm:text-[4.1rem] lg:text-[4.8rem] xl:text-[5.35rem]">
             Nutrição leve e personalizada para{" "}
-            <span className="italic text-[#E6C79C]">transformar sua</span> relação com a alimentação
+            <span className="italic text-[#E6C79C]">transformar</span> seus resultados
           </h1>
 
           <div className="mt-4 h-2.5 w-36">
@@ -176,13 +180,19 @@ export function Hero() {
 
             <div className="absolute right-[8%] top-[6%] z-20 h-24 w-24 rounded-full bg-cream/10 blur-2xl" />
 
-            <img
-              src={heroImg}
-              alt="Emilly Fernandes, nutricionista"
-              width={912}
-              height={1200}
-              className="relative z-10 mx-auto h-auto max-h-[68svh] w-full max-w-[720px] translate-y-[1%] object-contain object-bottom drop-shadow-[0_38px_72px_rgba(0,0,0,0.34)] sm:max-h-[70svh] lg:max-h-[84vh] lg:translate-y-[2%] lg:scale-[1.06]"
-            />
+            <picture className="relative z-10 block">
+              <source srcSet={heroImgWebp} type="image/webp" />
+              <img
+                src={heroImgPng}
+                alt="Emilly Fernandes, nutricionista"
+                width={1050}
+                height={1400}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                className="mx-auto h-auto max-h-[68svh] w-full max-w-[720px] translate-y-[1%] object-contain object-bottom drop-shadow-[0_38px_72px_rgba(0,0,0,0.34)] sm:max-h-[70svh] lg:max-h-[84vh] lg:translate-y-[2%] lg:scale-[1.06]"
+              />
+            </picture>
           </div>
         </div>
       </div>

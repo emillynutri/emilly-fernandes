@@ -1,7 +1,7 @@
 import { WhatsAppIcon } from "./WhatsAppIcon";
 
 export const WHATSAPP_URL =
-  "https://wa.me/5581983798945?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20nutri%C3%A7%C3%A3o.";
+  "https://wa.me/5581983798945?text=Ol%C3%A1%20Emilly!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20acompanhamento%20nutricional.";
 
 export function WhatsAppFloat() {
   return (

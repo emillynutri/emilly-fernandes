@@ -10,7 +10,7 @@ import {
 import type { ReactNode } from "react";
 
 import appCss from "../app.css?url";
-import heroImg from "@/assets/emilly-hero.png";
+import heroImg from "@/assets/emilly-hero-optimized.png";
 
 const SITE_NAME = "Emilly Fernandes Nutricionista";
 const SITE_URL = import.meta.env.VITE_SITE_URL?.replace(/\/$/, "") ?? "";

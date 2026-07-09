@@ -10,7 +10,7 @@ import { FAQ } from "@/components/landing/FAQ";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
 import { WhatsAppFloat } from "@/components/landing/WhatsAppFloat";
-import heroImg from "@/assets/emilly-hero.png";
+import heroImg from "@/assets/emilly-hero-optimized.png";
 import { useReveal } from "@/lib/useReveal";
 
 const SITE_URL = import.meta.env.VITE_SITE_URL?.replace(/\/$/, "") ?? "";
