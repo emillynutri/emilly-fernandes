@@ -12,9 +12,6 @@ export function FinalCTA() {
         <h2 className="mt-5 text-4xl leading-tight sm:text-6xl">
           Sua nova relação com a comida <em className="not-italic text-cream/70">começa aqui</em>
         </h2>
-        <p className="mx-auto mt-6 max-w-xl text-cream/70">
-          Envie uma mensagem e converse diretamente com a Emilly. Sem compromisso, com acolhimento.
-        </p>
         <div className="mt-10 flex flex-wrap justify-center gap-3">
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
             <WhatsAppIcon className="h-4 w-4" />

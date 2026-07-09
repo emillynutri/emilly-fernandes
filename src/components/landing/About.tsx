@@ -29,24 +29,19 @@ export function About() {
           </h2>
           <div className="mt-6 h-px w-16 bg-navy/30" />
           <p className="mt-6 text-base leading-relaxed text-navy/75 sm:text-lg">
-            Emilly Fernandes é nutricionista e atua com um olhar individualizado para cada paciente,
-            considerando rotina, preferências, objetivos, saúde e bem-estar.
+            Sou nutricionista formada pela Faculdade Pernambucana de Saúde, com pós-graduação em
+            Emagrecimento e Obesidade. Atualmente, direciono meus estudos e aperfeiçoamento para a
+            saúde da mulher.
           </p>
           <p className="mt-4 text-base leading-relaxed text-navy/75 sm:text-lg">
-            Seu atendimento une ciência, escuta ativa e planejamento alimentar realista para ajudar
-            cada pessoa a construir hábitos sustentáveis — sem extremismos, sem culpa, com equilíbrio.
+            Meus atendimentos são baseados em evidências científicas e adaptados à vida real.
           </p>
-
-          <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {["Escuta ativa e acolhedora", "Planejamento realista", "Base científica atualizada", "Foco em hábitos duradouros"].map((t) => (
-              <li key={t} className="flex items-center gap-3 text-sm text-navy/80">
-                <span className="h-1.5 w-1.5 rounded-full bg-navy" />
-                {t}
-              </li>
-            ))}
-          </ul>
-
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary-dark mt-10">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary-dark mt-10"
+          >
             <WhatsAppIcon className="h-4 w-4" />
             Falar com a nutricionista
           </a>
